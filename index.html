@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penilaian Siswa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Penilaian Siswa</h1>
+      <form id="nilaiForm">
+        <label for="nilaiInput">Masukkan Nilai:</label>
+        <input type="number" id="nilaiInput" required />
+        <button type="button" onclick="hitungNilai()">Tampilkan</button>
+      </form>
+      <div id="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
